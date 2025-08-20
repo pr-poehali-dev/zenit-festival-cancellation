@@ -84,7 +84,7 @@ export default function Index() {
             />
           </div>
           
-          <div className="grid md:grid-cols-3 gap-8 mb-12">
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
             <Card className="text-center">
               <CardContent className="p-6">
                 <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
@@ -116,11 +116,33 @@ export default function Index() {
                 <p className="text-slate-600 text-xs mt-1">Из-за отмены рейса</p>
               </CardContent>
             </Card>
+
+            <Card className="text-center border-green-200 bg-green-50">
+              <CardContent className="p-6">
+                <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                  ✅
+                </div>
+                <h3 className="font-semibold text-slate-900 mb-2">Нейромонах Феофан</h3>
+                <p className="text-green-600 text-sm font-medium">Выступление состоится</p>
+                <p className="text-slate-600 text-xs mt-1">По расписанию</p>
+              </CardContent>
+            </Card>
+
+            <Card className="text-center border-green-200 bg-green-50">
+              <CardContent className="p-6">
+                <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                  ✅
+                </div>
+                <h3 className="font-semibold text-slate-900 mb-2">Группа "Кирпичи"</h3>
+                <p className="text-green-600 text-sm font-medium">Выступление состоится</p>
+                <p className="text-slate-600 text-xs mt-1">По расписанию</p>
+              </CardContent>
+            </Card>
           </div>
 
           <div className="text-center">
             <p className="text-lg text-slate-700 mb-6">
-              Фестиваль на Дворцовой площади продолжается! Другие артисты и мероприятия проходят согласно программе.
+              Фестиваль на Дворцовой площади продолжается! Нейромонах Феофан и группа "Кирпичи" выступят согласно программе.
             </p>
             <p className="text-slate-600">
               Вход на фестиваль остается свободным для всех желающих
