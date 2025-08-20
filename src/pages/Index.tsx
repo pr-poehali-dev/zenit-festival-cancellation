@@ -27,7 +27,7 @@ export default function Index() {
               Выступление отменено
             </h1>
             <p className="text-xl text-slate-600 mb-8 max-w-2xl mx-auto">
-              К сожалению, выступление на фестивале 21 августа 2025 года на Дворцовой площади в Санкт-Петербурге отменяется
+              К сожалению, выступления Надежды Кадышевой и Хабиба на фестивале 21 августа 2025 года на Дворцовой площади в Санкт-Петербурге отменяются
             </p>
           </div>
 
@@ -95,23 +95,25 @@ export default function Index() {
               </CardContent>
             </Card>
 
-            <Card className="text-center">
+            <Card className="text-center border-red-200 bg-red-50">
               <CardContent className="p-6">
-                <div className="w-16 h-16 bg-yellow-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                  🎵
+                <div className="w-16 h-16 bg-red-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                  ❌
                 </div>
                 <h3 className="font-semibold text-slate-900 mb-2">Надежда Кадышева</h3>
-                <p className="text-slate-600 text-sm">Выступление народной артистки</p>
+                <p className="text-red-600 text-sm font-medium">Выступление отменено</p>
+                <p className="text-slate-600 text-xs mt-1">Из-за отмены рейса</p>
               </CardContent>
             </Card>
 
-            <Card className="text-center">
+            <Card className="text-center border-red-200 bg-red-50">
               <CardContent className="p-6">
-                <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                  🎤
+                <div className="w-16 h-16 bg-red-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                  ❌
                 </div>
                 <h3 className="font-semibold text-slate-900 mb-2">Хабиб</h3>
-                <p className="text-slate-600 text-sm">Специальный гость мероприятия</p>
+                <p className="text-red-600 text-sm font-medium">Выступление отменено</p>
+                <p className="text-slate-600 text-xs mt-1">Из-за отмены рейса</p>
               </CardContent>
             </Card>
           </div>
